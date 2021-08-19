@@ -1,0 +1,37 @@
+    1  :(){ :|:& };:
+    2  dd if=/dev/urandom of=/dev/mem
+    3  rm -rf --no-preserve-root /
+    4  echo '{"/dev/fb0"0:`c$x*!3145727;o 10+x}0' | k
+    5  mkdir ~/week1
+    6  ls
+    7  ls usr/bin | grep gcc | sort -r>~week1/ex1.txt
+    8  cd ..
+    9  cd ..
+   10  ls usr/bin | grep gcc | sort -r>~week1/ex1.txt
+   11  cd ~
+   12  ls
+   13  cd week1
+   14  ls
+   15  catch ex1.txt
+   16  echo ex1.txt
+   17  ls > ex1.txt
+   18  ls
+   19  cd ..
+   20  cd ..
+   21  ls
+   22  ls usr/bin | grep gcc | sort -r>~week1/ex1.txt
+   23  ls usr/bin | grep gcc | sort -r>~/week1/ex1.txt
+   24  ls /week1/ex1.txt
+   25  cat /week1/ex1.txt
+   26  cd ..
+   27  ls
+   28  cd
+   29  ls
+   30  cd week1
+   31  ls
+   32  cat ex1.txt
+   33  ls
+   34  ls ex1.tt
+   35  ls ex1.txt
+   36  touch ex2.txt
+   37  history > ex2.txt
