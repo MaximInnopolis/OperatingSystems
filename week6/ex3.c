@@ -1,6 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+    Inputs are:
+    10 processes and quantum 3
+    their arrival time and burst time are:
+
+            0       1
+            0       2
+            0       4
+            0       6
+            0       8
+            11      8
+            11      6
+            11      4
+            11      2
+            11      1
+
+    The results are:
+        for First come, first served:
+        Average turnaround time: 4.200000
+        Average waiting time: 13.400000
+
+        for Shortest job first:
+        Average turnaround time: 4.200000
+        Average waiting time: 7.900000
+
+        for Round robin:
+        Average turnaround time: 15.300000
+        Average waiting time: 16.400000
+
+    Shortest job first is better than others
+**/
+
 typedef struct {
     int id;
     int arrival_time;
