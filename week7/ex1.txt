@@ -1,0 +1,4 @@
+File which was used is OperatingSystems/week2/ex1/ex1.txt
+
+   text	   data	    bss	    dec	    hex	filename
+   9932	   2228	   2432	  14592	   3900	ex1.exe
