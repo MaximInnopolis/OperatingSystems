@@ -1,0 +1,16 @@
+top - 06:42:20 up 20 min,  2 users,  load average: 0.09, 0.05, 0.08
+Tasks: 55 total,   1 running, 54 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  22.6 us,  25.8 sy,  0,0 ni, 48.4 id,  0.0 wa,  3.2 hi,  0,0 si,  0,0 st
+MiB Mem :  491.3 total,  428.9 free,   22.7 used,   39.7 buff/cache
+MiB Swap:  0.0 total,  0.0 free,      0.0 used.  455.4 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 1211 root      20   0   63736   8,0g  62172 S  5.6   12.4   0:00.39 ex2
+ 1212 root      20   0    5992   3044   2676 R  18.5   0.6   0:00.19 top
+    1 root      20   0    2304   1396   1316 S   0.0   0.3   0:08.87 init-openrc
+    2 root      20   0       0      0      0 S   0.0   0.0   0:00.05 kthreadd
+    3 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_gp
+    4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 rcu_par_gp
+    5 root      20   0       0      0      0 I   0.0   0.0   0:01.08 kworker/0:0-events
+
+The load on the processoor is high since it is constantly allocating new memory.
