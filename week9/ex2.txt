@@ -1,0 +1,9 @@
+For the given input data with increasing size hit/miss ration increases.
+
+The hit/miss ratio would be n, where:
+k k k k k ... k repeated n+1 times
+This happens because the same page we reference n+1 times is not already in memory
+
+In another way hit/miss ration would be 0, where:
+1 2 3 4 5 ... n
+This happens because we reference different page. No hits and n misses in case that can be seen above
