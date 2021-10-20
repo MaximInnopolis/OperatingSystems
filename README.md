@@ -1,3 +1,3 @@
 # OperatingSystems
 
-All Homeworks for Operating Sytems course 
+All Homeworks for Operating Sytems course
