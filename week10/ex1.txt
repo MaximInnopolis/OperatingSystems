@@ -1,0 +1,15 @@
+[maxinno@max1 week10]$ touch ./_ex1.txt
+[maxinno@max1 week10]$ ls
+_ex1.txt
+[maxinno@max1 week10]$ ln _ex1.txt _ex1_1.txt
+[maxinno@max1 week10]$ ls
+_ex1_1.txt  _ex1.txt
+[maxinno@max1 week10]$ ln _ex1.txt _ex1_2.txt
+[maxinno@max1 week10]$ ls
+_ex1_1.txt  _ex1_2.txt  _ex1.txt
+[maxinno@max1 week10]$ ls -i _ex1_1.txt
+8782110 _ex1_1.txt
+[maxinno@max1 week10]$ ls -i _ex1.txt 
+8782110 _ex1.txt
+[maxinno@max1 week10]$ ls -i _ex1_2.txt 
+8782110 _ex1_2.txt

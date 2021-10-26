@@ -1,0 +1,12 @@
+[maxinno@max1 week10]$ touch ../week01/file.txt
+[maxinno@max1 week10]$ link ../week01/file.txt _ex2.txt
+[maxinno@max1 week10]$ ls -i ../week01/file.txt
+8392976 ../week01/file.txt
+[maxinno@max1 week10]$ find .. -inum 8392976
+../week01/file.txt
+../week10/_ex2.txt
+[maxinno@max1 week10]$ find .. -inum 8392976 -exec rm {} \;
+[maxinno@max1 week10]$ ls
+_ex1_1.txt  _ex1_2.txt  _ex1.txt  ex1.txt
+[maxinno@max1 week10]$ ls ../week01
+ex1.sh  ex1.txt  ex2.txt  ex3.sh  ex3.txt  ex4  main.c

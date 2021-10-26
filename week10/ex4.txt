@@ -1,0 +1,4 @@
+hard links for 8781841: . 
+hard links for 8781842: file1 link1 
+hard links for 8781843: file2 
+hard links for 8781890: .. 
