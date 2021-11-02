@@ -1,0 +1,60 @@
+Сhroot:
+Without chroot:
+$Recycle.Bin
+$WinREAgent
+Documents and Settings
+DumpStack.log.tmp
+hiberfil.sys
+MinGW
+OneDriveTemp
+pagefile.sys
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+swapfile.sys
+System Volume Information
+Users
+Windows
+Zoom
+Сhroot:
+Without chroot:
+$Recycle.Bin
+$WinREAgent
+Documents and Settings
+DumpStack.log.tmp
+hiberfil.sys
+MinGW
+OneDriveTemp
+pagefile.sys
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+swapfile.sys
+System Volume Information
+Users
+Windows
+Zoom
+Сhroot:
+Without chroot:
+$Recycle.Bin
+$WinREAgent
+Documents and Settings
+DumpStack.log.tmp
+hiberfil.sys
+MinGW
+OneDriveTemp
+pagefile.sys
+PerfLogs
+Program Files
+Program Files (x86)
+ProgramData
+Recovery
+swapfile.sys
+System Volume Information
+Users
+Windows
+Zoom
