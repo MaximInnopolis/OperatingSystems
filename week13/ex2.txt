@@ -1,0 +1,15 @@
+Deadlock recovery:
+ • This method does not limit resources access or restrict process action
+ • Requested resources are granted to processes whenever possible
+ • It never delays the process initiation and facilitates online handling
+ • However inherent pre-emption losses which is disadvantage
+
+Deadlock avoidance:
+ • This method is only possible when the system has the ability to decide whether it is safe to provide a resource, and only make allocations when it is safe to do so.
+ • This requires the system to know the resources that the threads will request.
+
+Deadlock prevention:
+ • Instead of the process directly accessing the printer they output their requests in the spooling directory; these requests are queued and processed one by one by the printing daemon
+ • Does not allow process taking resources before they release previously taken
+ • Allow preemption, resources can be virtualized, again the example of spooling
+ • Allow taking the resources only in a certain order, e.g. by numbering it from 1 to N and prohibiting acquiring a resource with a number lesser than the current resource in use.
